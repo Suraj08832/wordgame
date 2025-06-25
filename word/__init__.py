@@ -31,7 +31,7 @@ word = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=TOKEN,
-    plugins=dict(root="word"),
+    plugins=dict(root="word/modules"),
 )
 
 
