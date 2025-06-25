@@ -129,4 +129,4 @@ If you encounter any issues:
 
 ---
 
-Add the bot to your group: [@WordNWordRobot](https://t.me/WordNWordRobot?startgroup=true)
+Add the bot to your group: [@Words_gamer_bot](https://t.me/Words_gamer_bot?startgroup=true)

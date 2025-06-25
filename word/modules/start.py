@@ -6,7 +6,7 @@ from word import word
 START_TEXT = """**👋 Hey {user}!
 
 {bot} - Hi! I host games of word chain in Telegram groups.
-Add me to a group to start playing games!
+Add me to a group to start playing games! if u want error just dm my owner @crush_hu_tera
 **"""
 
 @word.on_message(filters.command(["start", "help"]))
@@ -38,7 +38,7 @@ async def start(client: Client, message: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("+ Add Me +", url="https://t.me/WordNWordRobot?startgroup=true"),
+                        InlineKeyboardButton("+ Add Me +", url="https://t.me/Words_gamer_bot?startgroup=true"),
                     ]
                 ]
             )
