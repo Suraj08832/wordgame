@@ -3,7 +3,7 @@ from pyrogram import Client
 import logging  
 from motor.motor_asyncio import AsyncIOMotorClient
 import pyromod
-from word.modules.word import load_words, load_common_words, load_state_city_countries
+from word.utils.word_utils import load_words, load_common_words, load_state_city_countries
 
 
 logging.basicConfig(
@@ -31,7 +31,8 @@ word = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=TOKEN,
-    plugins=dict(root="word.modules")
+    workdir=".",
+    plugins=dict(root="word/modules", include_root=True)
 )
 
 
